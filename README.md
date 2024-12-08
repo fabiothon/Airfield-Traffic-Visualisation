@@ -4,7 +4,7 @@
 This R script processes and visualizes Swiss airfield traffic data based on annual flight movements, leveraging a dataset provided by the Swiss Federal Statistical Office (BFS). The data measures airfield activity in terms of annual flight movements, where one flight movement is defined as either a takeoff or a landing. Please note: The coordinates are just an approximation of the actual location of the airfield.
 
 ## Application Overview
-![Uploading picture_1.png…]()
+
 
 ## Installation
 
