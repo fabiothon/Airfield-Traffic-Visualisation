@@ -5,8 +5,9 @@ library(leaflet.extras)
 library(dplyr)
 
 # Data-Input ----
-airport_data <- read_excel("/Users/fabiothon/Desktop/Code/flight_data.xlsx")
+airport_data <- read_excel("/Users/fabiothon/Desktop/Code/Airfield/flight_data.xlsx")
 head(airport_data)
+tail(airport_data)
 
 small_airfields <- airport_data %>%
   filter(type == "Flugfelder")
