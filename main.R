@@ -22,7 +22,7 @@ small_mid_airfields <- airport_data %>%
   filter(type %in% c("Flugfelder", "Regionalflughäfen"))
 
 # Heatmap ---- 
-small_mid_airfields %>%
+big_airfields %>%
   leaflet() %>%
   addTiles() %>%
   addHeatmap(lng = ~long, lat = ~lat, blur = 40, max = 30, radius = 40, 
